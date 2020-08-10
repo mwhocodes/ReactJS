@@ -1,0 +1,30 @@
+/* to have its own style for each components 
+=> instead of making a general css file for all components 
+=> making a ..module.css
+=> to be easy to control and avoid of interference and unpredictable code */
+
+.container {
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 2% !important;
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+    }
+}

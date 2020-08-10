@@ -1,0 +1,9 @@
+/* to have its own style for each components 
+=> instead of making a general css file for all components 
+=> making a ..module.css
+=> to be easy to control and avoid of interference and unpredictable code */
+
+.formControl {
+    width: 30%;
+    margin-bottom: 30px !important;
+}

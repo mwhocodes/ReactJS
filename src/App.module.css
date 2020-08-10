@@ -1,0 +1,32 @@
+/* to have its own style for each components 
+=> instead of making a general css file for all components 
+=> making a ..module.css
+=> to be easy to control and avoid of interference and unpredictable code */
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media (max-width: 770px)
+/* 770px: be used for both tablet and mobile */
+
+{
+    .container {
+        margin: 0 10%;
+    }
+    .image {
+        width: 100%;
+    }
+}
